@@ -10,7 +10,7 @@ colored_rect_y = []
 def background():
     for y in range(0, 500, 20):
         for x in range(0, 500, 20):
-            pygame.draw.rect(win, (0, 255, 255), (x, y, 20, 20))
+            pygame.draw.rect(win, (255, 255, 255), (x, y, 20, 20))
             pygame.draw.line(win, (0, 0, 0), (x, y), (x, y+500))
             pygame.draw.line(win, (0, 0, 0), (x, y), (x+500, y))
     x = 0
